@@ -42,3 +42,5 @@ function PageTransitions() {
   });
 }
 PageTransitions();
+
+//PDF Files attachment
