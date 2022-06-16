@@ -771,16 +771,31 @@
               <div class="contact-form">
                 <form action="https://formspree.io/f/xpzbneyr" method="POST">
                   <div class="input-control i-c-2">
-                    <input type="text" required placeholder="YOUR NAME" />
-                    <input type="email" required placeholder="YOUR EMAIL" />
+                    <input
+                      type="text"
+                      required
+                      placeholder="YOUR NAME"
+                      name="yourName"
+                    />
+                    <input
+                      type="email"
+                      required
+                      placeholder="YOUR EMAIL"
+                      name="yourEmail"
+                    />
                   </div>
                   <div class="input-control">
-                    <input type="text" required placeholder="ENTER SUBJECT" />
+                    <input
+                      type="text"
+                      required
+                      placeholder="ENTER SUBJECT"
+                      name="subject"
+                    />
                   </div>
                   <div class="input-control">
                     <textarea
-                      type="text"
-                      id=""
+                      name="message"
+                      id="message"
                       cols="15"
                       rows="10"
                       required
