@@ -577,7 +577,6 @@ button[type="submit"]:hover {
   align-items: center;
   flex-direction: column;
   opacity: 0;
-  scale: 0;
   transform: scale(0);
   transition: all 0.4s ease-in-out;
 }
@@ -626,7 +625,6 @@ button[type="submit"]:hover {
 
 .portfolio-item:hover .hover-items {
   opacity: 1;
-  -webkit-transform: scale(1);
   transform: scale(1);
 }
 
